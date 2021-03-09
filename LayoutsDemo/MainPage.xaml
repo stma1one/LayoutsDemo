@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="LayoutsDemo.MainPage">
+
+    <StackLayout>
+        <!-- Place new controls here -->
+        
+        <Button x:Name="btnContentView" Text="ContentView" Clicked="btnContentView_Clicked"/>
+        <Button x:Name="btnFrame" Text="Frame" Clicked="btnFrame_Clicked"/>
+        <Button x:Name="btnScrollView" Text="ScrollView" Clicked="btnScrollView_Clicked"/>
+        <Button x:Name="btnStackLayout" Text="StackLayout" Clicked="btnStackLayout_Clicked"/>
+        <Button x:Name="btnGrid" Text="Grid" Clicked="btnGrid_Clicked"/>
+        <Button x:Name="btnAbsolutLayout" Text="AbsoluteLayout" Clicked="btnAbsolutLayout_Clicked"/>
+        <Button x:Name="btnRelativeLayout" Text="RelativeLayout" Clicked="btnRelativeLayout_Clicked"/>
+    </StackLayout>
+
+</ContentPage>
